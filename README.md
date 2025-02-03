@@ -1,65 +1,30 @@
-# Pizza-Sales-Analysis-Using-SQL
+# 🍕 SQL Pizza Sales Analysis
 
-## 📌 Project Overview  
+## 📌 Project Overview
+This project focuses on analyzing pizza sales data using SQL queries. The goal is to extract meaningful insights by retrieving key business metrics related to sales performance, order trends, and revenue distribution. The dataset contains information on pizza orders, types, sizes, and prices.
 
+## 🎯 Objectives
+The project is structured into three levels: **Basic, Intermediate, and Advanced**, covering fundamental SQL operations, aggregations, joins, and advanced analytical queries.
 
-## 📊 Key Objectives  
-- Determine the **total number of orders** placed.  
-- Calculate **total revenue generated** from pizza sales.  
-- Identify the **most expensive pizza** and **most ordered pizza size**.  
-- Find the **top 5 most ordered pizza types** and **category-wise sales distribution**.  
-- Analyze **order trends by time of day** and **cumulative revenue growth**.  
-- Determine the **top revenue-generating pizzas** and **category contributions**.  
+### 🟢 Basic Queries
+- Retrieve the total number of orders placed.
+- Calculate the total revenue generated from pizza sales.
+- Identify the highest-priced pizza.
+- Identify the most common pizza size ordered.
+- List the top 5 most ordered pizza types along with their quantities.
 
-## 🛠️ Tools & Technologies  
-- **SQL** for querying and data analysis  
-- **Database Management System (DBMS)** (MySQ)  
+### 🔵 Intermediate Queries
+- Join the necessary tables to find the total quantity of each pizza category ordered.
+- Determine the distribution of orders by hour of the day.
+- Join relevant tables to find the category-wise distribution of pizzas.
+- Group the orders by date and calculate the average number of pizzas ordered per day.
+- Determine the top 3 most ordered pizza types based on revenue.
 
-## 📂 Dataset Used  
-The dataset consists of multiple tables:  
-1. `orders` – Contains order details (order ID, date, time).  
-2. `orders_details` – Stores order quantities and pizza IDs.  
-3. `pizzas` – Includes pizza pricing and sizes.  
-4. `pizza_types` – Defines pizza categories and names.  
+### 🔴 Advanced Queries
+- Calculate the percentage contribution of each pizza type to total revenue.
+- Analyze the cumulative revenue generated over time.
+- Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
-## 📑 SQL Queries & Insights  
-
-### 🔹 Basic Analysis  
-✔ **Total Orders:** `21,350` orders placed.  
-✔ **Total Revenue:** `$817,860.05` generated.  
-✔ **Most Expensive Pizza:** *The Greek Pizza* (`$35.95`).  
-✔ **Most Ordered Pizza Size:** **Large** (`18,526 orders`).  
-✔ **Top 5 Most Ordered Pizzas:** *Classic Deluxe, Hawaiian, Barbecue Chicken, Thai Chicken, Pepperoni.*  
-
-### 🔹 Intermediate Analysis  
-✔ **Orders by Time of Day:** Peak orders between **12 PM - 1 PM**.  
-✔ **Category-wise Orders:** *Classic (14,888), Supreme (11,987), Veggie (11,649), Chicken (11,050).*  
-✔ **Average Pizzas Ordered Per Day:** `138 pizzas/day`.  
-✔ **Top 3 Revenue-Generating Pizzas:** *Thai Chicken Pizza ($43,434.25), Barbecue Chicken Pizza ($42,768), California Chicken Pizza ($41,409.50).*  
-
-### 🔹 Advanced Analysis  
-✔ **Revenue Contribution by Category:**  
-   - **Classic:** `26.91%`  
-   - **Supreme:** `25.46%`  
-   - **Chicken:** `23.96%`  
-   - **Veggie:** `23.68%`  
-✔ **Cumulative Revenue Over Time:** Increasing sales trend.  
-✔ **Top 3 Most Ordered Pizzas in Each Category:** Ranked revenue-wise.  
-
-## 📌 Key Findings
-📈 **Increase promotions during peak hours (12 PM - 1 PM).**  
-🍕 **Expand high-performing categories (Classic & Supreme).**  
-💡 **Encourage sales of XL & XXL sizes through special offers.**  
-🎯 **Leverage data-driven marketing for high-revenue pizzas.**  
-
-## 📎 Project Files  
-- **Pizza_Sales_Analysis.sql** – Contains all SQL queries.  
-- **Pizza_Sales_Presentation.pdf** – Visual presentation of insights.  
-- **Dataset (CSV/SQL dump)** – Source data used for analysis.  
----
-
-### 📬 Contact & Feedback  
-Feel free to connect if you have questions or suggestions! 😊 
----
-# THANK YOU
-
+## 🛠️ Tools & Technologies
+- **Database**: MySQL 
+- **Query Language**: SQL
